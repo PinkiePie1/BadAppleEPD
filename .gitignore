@@ -1,0 +1,52 @@
+# 构建目录
+build/
+Build/
+cmake-build-*/
+CMakeFiles/
+out/
+
+# C / C++ 编译与链接产物
+*.o
+*.obj
+*.d
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.elf
+*.bin
+*.hex
+*.srec
+*.map
+*.lst
+*.lss
+*.sym
+*.exp
+*.ilk
+*.pdb
+*.su
+
+# CMake / Ninja 生成文件
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+build.ninja
+.ninja_deps
+.ninja_log
+
+# 覆盖率与性能分析产物
+*.gcno
+*.gcda
+*.gcov
+*.profraw
+*.profdata
+
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
